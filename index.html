@@ -1,0 +1,272 @@
+<!--
+
+File Name: index.html
+
+File Author: Mitchell M. Gresham 
+
+Last Date Modified: 7/20/2022 by Mitchell M. Gresham
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- DESCRIPTIVE WEBPAGE ELEMENTS -->
+    <meta charset="utf-8">
+    <title>Copperstone PC - Custom Professional Desktops</title>
+    <meta name="description" content="Swifi is an online custom desktop computer supplier with a focus on product quality and customer support, becase we understand that a 
+                                            desktop isn't just another computer its an investment in yourself.">
+    <meta name="keywords" content="Custome Desktop, Custom Computer, Customer Business Computer, Custom Design Computer, Custome Gaming Computer">
+    <meta name="author" content="Mitchell M. Gresham">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FILE IMPORTS -->
+    <!-- BOOTSTRAP IMPORTS -->
+
+    <!-- CSS IMPORT -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- JS IMPORT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- USER DEFINED IMPORTS -->
+
+    <!-- CSS FILE-->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- JS FILE -->
+    <script src="front-end-js.js" async defer></script>
+    <!-- Defered JS File, for faster loading. -->
+</head>
+
+<body class="text-center bg-dark">
+    <!-- NAVIGATION BAR -->
+    <nav class="bg-dark text-bg-dark mx-auto pb-2">
+
+        <div class="d-flex align-items-center justify-content-center pt-3 pb-1">
+            <h1 class="display-6">Copperstone Computers</h1>
+        </div>
+
+        <!-- NAVIGATION BAR LINKS -->
+        <div class="d-flex justify-content-center">
+            <div class="nav-container m-3 pb-1" id="home-link">
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+            </div>
+
+            <div class="nav-container m-3 pb-1" id="about-link">
+                <a href="about.html" class="nav-link">About</a>
+            </div>
+
+            <div class="nav-container m-3 pb-1" id="professional-link">
+                <a href="professional.html" class="nav-link">Professional</a>
+            </div>
+
+            <div class="nav-container m-3 pb-1" id="esport-link">
+                <a href="sports.html" class="nav-link">E-Sports</a>
+            </div>
+
+            <div class="nav-container m-3 pb-1" id="contact-link">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVIGATION BAR END -->
+
+    <!-- HEADER -->
+    <div class="px-4 py-5 my-3 text-center text-bg-dark">
+
+        <!-- ICON -->
+        <img class="d-block mx-auto mb-4" src="motherboard.png" alt="Image of Fixing Computer" width="100" height="100">
+
+        <!-- TITLE -->
+        <h1 class="display-3 fw-semibold mb-4">Custom Professional Computers</h1>
+
+        <!-- DESCRIPTION -->
+        <div class="col-lg-8 mx-auto">
+            <p class="lead mb-4">Here at Copperstone Computers we pride ourselves in our excellence. We have a reputation for high quality computer systems at affordable prices.
+            </p>
+            <!-- BUTTONS -->
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a type="button" href="professional.html" class="btn btn-primary btn-lg px-4 gap-4">Explore Our Systems</a>
+                <a type="button" href="about.html" class="btn btn-outline-secondary btn-lg px-4">More About Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+    <!-- FEATURES -->
+    <div class="container px-4 py-5 text-bg-dark">
+        <!-- TITLE -->
+        <h2 class="pb-5 display-5 border-bottom">Explore Our Brand</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+            <!-- CARD -->
+            <div class="feature col">
+
+                <!-- ICON -->
+                <img src="desktop-computer.png" class="m-2" alt="Image of Professional Desktop" width="55" height="55">
+
+                <!-- CARD TITLE -->
+                <h3>Professional Systems</h3>
+
+                <!-- CARD DESCRIPTION -->
+                <p>Our Professional Desktops are customized to your business needs to maximize your prodcutivity and performance.</p>
+
+                <!-- CARD ACTION BUTTON -->
+                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+              Explore Professional Desktops
+            </a>
+            </div>
+
+            <!-- CARD -->
+            <div class="feature col">
+
+                <!-- ICON -->
+                <img src="gamepad.png" class="m-2" alt="Image of Game Controller" width="55" height="55">
+
+                <!-- CARD TITLE -->
+                <h3>E-Sports-Ready Desktops</h3>
+
+                <!-- CARD DESCRIPTION -->
+                <p>Our E-Sports branded desktops are made for excellence in fast-paced games, to make the most of your skills as a gamer.</p>
+
+                <!-- CARD ACTION BUTTON -->
+                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+              Explore E-Sports Desktops
+            </a>
+            </div>
+
+            <!-- CARD -->
+            <div class="feature col">
+
+                <!-- ICON -->
+                <img src="working.png" class="m-2" alt="Image of Administrator" width="55" height="55">
+
+                <!-- CARD TITLE -->
+                <h3>IT Administration</h3>
+
+                <!-- CARD DESCRIPTION -->
+                <p>With our years of experience in computer systems, we ensure sucess in your company's administration of valuable computing resoruces.</p>
+
+                <!-- CARD ACTION BUTTON -->
+                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+              Contact Our Office
+            </a>
+            </div>
+        </div>
+    </div>
+    <!-- FEATURES END -->
+
+    <!-- OUR VALUES -->
+    <div class="container px-4 py-5 text-bg-dark">
+        <!-- TITLE -->
+        <h2 class="pb-5 display-5 border-bottom">See Our Values</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"></div>
+
+        <!-- CARD CONTAINER -->
+        <div class="row align-items-md-stretch">
+
+            <!-- FIRST CARD -->
+            <div class="col-md-6 pt-5 pt-sm-4 pt-md-3">
+                <div class="h-100 p-5 text-bg-dark rounded-3 border">
+                    <!-- ICON -->
+                    <img src="suit.png" alt="Suit Image" class="mb-3" width="55" height="55">
+                    <!-- CARD TITLE -->
+                    <h2 class="pb-2">Tailored Desktops With As Much Personality As You.</h2>
+                    <!-- HORIZONTIAL RULE -->
+                    <hr class="pb-3">
+                    <!-- CARD DESCRIPTION -->
+                    <p>We think buying a suit and buying a desktop should feel the same as if they cost the same, don't you think you should treated the same, with a tailored made system that is made only for you? Find out at Copperstone Computers.</p>
+                    <!-- ACTION BUTTON -->
+                    <button class="btn btn-outline-light mt-2" type="button">Contact An Agent</button>
+                </div>
+            </div>
+            <!-- SECOND CARD -->
+            <div class="col-md-6 pt-5 pt-sm-4 pt-md-3">
+                <div class="h-100 p-5 bg-light border text-bg-light rounded-3">
+                    <!-- ICON -->
+                    <img src="multitask.png" alt="Multitask Image" class="mb-3" width="55" height="55">
+                    <!-- CARD TITLE -->
+                    <h2 class="pb-2">Computers Designed For Everyone & Everything</h2>
+                    <!-- HORIZONTIAL RULE -->
+                    <hr class="pb-3">
+                    <!-- CARD DESCRIPTION -->
+                    <p>Our desktops are rigously tested to ensure that they meet the standards not only set out by the manufacter, but from us, ensuring that even if you want to get in a little gaming at work (We won't tell) you'll be prepared.</p>
+                    <!-- ACTION BUTTON -->
+                    <button class="btn btn-outline-secondary mt-2" type="button">Explore Systems</button>
+                </div>
+            </div>
+        </div>
+        <!-- OUR VALUES END -->
+
+        <!-- CONTACT US -->
+        <div class="container mt-5 px-4 py-5 text-bg-dark" id="featured-3">
+            <!-- TITLE -->
+            <h2 class="pb-5 display-5 border-bottom">Contact Us</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"></div>
+
+            <!-- CONTACT FOR CONTAINER -->
+            <div class="row align-items-md-stretch">
+                <div class="col-md-12 pt-3">
+                    <div class="h-100 p-5 text-bg-dark rounded-3 border text-start">
+                        <!-- FORM TITLE & DESCRIPTION -->
+                        <h5 class="pb-2">Please Enter Your Information & We'll Connet You With A Certified Agent.</h5>
+                        <h6 class="pb-2 fw-light">Required Elements ( * )</h6>
+
+                        <!-- FORM -->
+                        <form class="needs-validation" onsubmit="">
+                            <!-- Add Submit Action & Form Validation -->
+                            <div class="col-sm-8 mt-4">
+                                <!-- FIRST NAME INPUT -->
+                                <label for="firstName" class="form-label">First Name *</label>
+                                <input type="text" class="form-control" id="firstName" required="true">
+                                <div class="invalid-feedback">
+                                    Valid First Name Required
+                                </div>
+                            </div>
+                            <div class="col-sm-8 mt-5">
+                                <!-- LAST NAME INPUT -->
+                                <label for="lastName" class="form-label">Last Name *</label>
+                                <input type="text" class="form-control" id="lastName" required="true">
+                                <div class="invalid-feedback">
+                                    Valid Last Name Required
+                                </div>
+                            </div>
+                            <div class="col-sm-8 mt-5">
+                                <!-- EMAIL INPUT -->
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="text" class="form-control" id="email" required="true">
+                                <div class="invalid-feedback">
+                                    Valid Email Required
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-5">
+                                <!-- FORM SUBMIT BUTTON -->
+                                <input for="submitForm" class="btn btn-outline-light" type="button" value="Submit Form">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- CONTACT US END -->
+            <!-- FOOTER -->
+            <div class="container text-bg-dark mt-5 pt-5">
+                <footer>
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Professional</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">E-Sports</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Contact</a></li>
+                    </ul>
+                    <p class="text-center">© 2022 Mitchell M. Gresham</p>
+                    <p class="text-center">Built With <a class="link-light" href="https://getbootstrap.com">Bootstrap</a> | Image From <a class="link-light" href="https://www.flaticon.com/">Flat Icon</a></p>
+                </footer>
+            </div>
+            <!-- FOOTER END -->
+</body>
+
+</html>
