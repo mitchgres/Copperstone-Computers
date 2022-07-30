@@ -9,7 +9,7 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
 -->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <!-- DESCRIPTIVE WEBPAGE ELEMENTS -->
@@ -90,8 +90,8 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
             </p>
             <!-- BUTTONS -->
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a type="button" href="professional.html" class="btn btn-primary btn-lg px-4 gap-4">Explore Our Systems</a>
-                <a type="button" href="about.html" class="btn btn-outline-secondary btn-lg px-4">More About Us</a>
+                <a href="professional.html" class="btn btn-primary btn-lg px-4 gap-4">Explore Our Systems</a>
+                <a href="about.html" class="btn btn-outline-secondary btn-lg px-4">More About Us</a>
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
                 <p>Our Professional Desktops are customized to your business needs to maximize your prodcutivity and performance.</p>
 
                 <!-- CARD ACTION BUTTON -->
-                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+                <a href="professional.html" class="icon-link d-inline-flex align-items-center feature-button">
               Explore Professional Desktops
             </a>
             </div>
@@ -134,7 +134,7 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
                 <p>Our E-Sports branded desktops are made for excellence in fast-paced games, to make the most of your skills as a gamer.</p>
 
                 <!-- CARD ACTION BUTTON -->
-                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+                <a href="sports.html" class="icon-link d-inline-flex align-items-center feature-button">
               Explore E-Sports Desktops
             </a>
             </div>
@@ -152,7 +152,7 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
                 <p>With our years of experience in computer systems, we ensure sucess in your company's administration of valuable computing resoruces.</p>
 
                 <!-- CARD ACTION BUTTON -->
-                <a href="#" class="icon-link d-inline-flex align-items-center feature-button">
+                <a href="contact.html" class="icon-link d-inline-flex align-items-center feature-button">
               Contact Our Office
             </a>
             </div>
@@ -200,73 +200,73 @@ Last Date Modified: 7/20/2022 by Mitchell M. Gresham
                 </div>
             </div>
         </div>
-        <!-- OUR VALUES END -->
+    </div>
+    <!-- OUR VALUES END -->
 
-        <!-- CONTACT US -->
-        <div class="container mt-5 px-4 py-5 text-bg-dark" id="featured-3">
-            <!-- TITLE -->
-            <h2 class="pb-5 display-5 border-bottom">Contact Us</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"></div>
+    <!-- CONTACT US -->
+    <div class="container mt-5 px-4 py-5 text-bg-dark">
+        <!-- TITLE -->
+        <h2 class="pb-5 display-5 border-bottom">Contact Us</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"></div>
 
-            <!-- CONTACT FOR CONTAINER -->
-            <div class="row align-items-md-stretch">
-                <div class="col-md-12 pt-3">
-                    <div class="h-100 p-5 text-bg-dark rounded-3 border text-start">
-                        <!-- FORM TITLE & DESCRIPTION -->
-                        <h5 class="pb-2">Please Enter Your Information & We'll Connet You With A Certified Agent.</h5>
-                        <h6 class="pb-2 fw-light">Required Elements ( * )</h6>
+        <!-- CONTACT FOR CONTAINER -->
+        <div class="row align-items-md-stretch">
+            <div class="col-md-12 pt-3">
+                <div class="h-100 p-5 text-bg-dark rounded-3 border text-start">
+                    <!-- FORM TITLE & DESCRIPTION -->
+                    <h5 class="pb-2">Please Enter Your Information & We'll Connet You With An Agent.</h5>
+                    <h6 class="pb-2 fw-light">Required Elements ( * )</h6>
 
-                        <!-- FORM -->
-                        <form class="needs-validation" onsubmit="">
-                            <!-- Add Submit Action & Form Validation -->
-                            <div class="col-sm-8 mt-4">
-                                <!-- FIRST NAME INPUT -->
-                                <label for="firstName" class="form-label">First Name *</label>
-                                <input type="text" class="form-control" id="firstName" required="true">
-                                <div class="invalid-feedback">
-                                    Valid First Name Required
-                                </div>
-                            </div>
-                            <div class="col-sm-8 mt-5">
-                                <!-- LAST NAME INPUT -->
-                                <label for="lastName" class="form-label">Last Name *</label>
-                                <input type="text" class="form-control" id="lastName" required="true">
-                                <div class="invalid-feedback">
-                                    Valid Last Name Required
-                                </div>
-                            </div>
-                            <div class="col-sm-8 mt-5">
-                                <!-- EMAIL INPUT -->
-                                <label for="email" class="form-label">Email *</label>
-                                <input type="text" class="form-control" id="email" required="true">
-                                <div class="invalid-feedback">
-                                    Valid Email Required
-                                </div>
-                            </div>
-                            <div class="col-sm-6 mt-5">
-                                <!-- FORM SUBMIT BUTTON -->
-                                <input for="submitForm" class="btn btn-outline-light" type="button" value="Submit Form">
-                            </div>
-                        </form>
-                    </div>
+                    <!-- FORM -->
+                    <form onsubmit="return validateForm('index_form') " id="index_form">
+                        <!-- Add Submit Action & Form Validation -->
+                        <div class="col-sm-8 mt-4">
+                            <!-- FIRST NAME INPUT -->
+                            <label for="firstName" class="form-label">First Name *</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-sm-8 mt-5">
+                            <!-- LAST NAME INPUT -->
+                            <label for="lastName" class="form-label">Last Name *</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="col-sm-8 mt-5">
+                            <!-- EMAIL INPUT -->
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="text" class="form-control" id="email" required>
+                        </div>
+                        <div class="col-sm-6 mt-5">
+                            <!-- FORM SUBMIT BUTTON -->
+                            <input class="btn btn-outline-light" type="submit" value="Submit Form">
+                        </div>
+                    </form>
                 </div>
             </div>
-            <!-- CONTACT US END -->
-            <!-- FOOTER -->
-            <div class="container text-bg-dark mt-5 pt-5">
-                <footer>
-                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Professional</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">E-Sports</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Contact</a></li>
-                    </ul>
-                    <p class="text-center">© 2022 Mitchell M. Gresham</p>
-                    <p class="text-center">Built With <a class="link-light" href="https://getbootstrap.com">Bootstrap</a> | Image From <a class="link-light" href="https://www.flaticon.com/">Flat Icon</a></p>
-                </footer>
-            </div>
-            <!-- FOOTER END -->
+        </div>
+    </div>
+    <!-- CONTACT US END -->
+    <!-- FOOTER -->
+    <div class="container text-bg-dark mt-5 pt-5">
+        <footer>
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link link-light px-2">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link link-light px-2">About</a></li>
+                <li class="nav-item"><a href="professional.html" class="nav-link link-light px-2">Professional</a></li>
+                <li class="nav-item"><a href="sports.html" class="nav-link link-light px-2">E-Sports</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link link-light px-2">Contact</a></li>
+            </ul>
+            <table class="text-center mx-auto mt-4">
+                <tr>
+                    <th class="fw-light" colspan="2"><a href="https://github.com/mitchgres">© Mitchell M. Gresham</a></th>
+                </tr>
+                <tr>
+                    <td>Made With <a class="link-light" href="https://getbootstrap.com">Bootstrap</a> | </td>
+                    <td> Icons From Image From <a class="link-light" href="https://www.flaticon.com/">Flat Icon</a></td>
+                </tr>
+            </table>
+        </footer>
+    </div>
+    <!-- FOOTER END -->
 </body>
 
 </html>
